@@ -1,0 +1,17 @@
+{
+  "mae": 3.1703958820346325,
+  "n_samples": 3000,
+  "features": [
+    "traffic_level",
+    "nearby_events",
+    "day_of_week",
+    "total_slots",
+    "area_name_City Center",
+    "area_name_Cricket Stadium",
+    "area_name_Metro Station",
+    "area_name_Railway Station",
+    "area_name_Shopping Mall",
+    "area_name_Tech Park"
+  ],
+  "note": "Trained on Indian parking data with event influence"
+}
