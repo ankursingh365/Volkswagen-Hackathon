@@ -4,12 +4,12 @@ import numpy as np
 def generate_parking_data(n_rows=3000, seed=42):
     np.random.seed(seed)
 
-    #Indian-specific parking areas
+    # Indian-specific parking areas
     areas = ["Airport", "Metro Station", "Shopping Mall", "Cricket Stadium", "Tech Park", "Railway Station", "City Center"]
 
     timestamps = pd.date_range("2024-01-01", periods=n_rows, freq="H")
 
-    # Define event probabilities for each area (Stadium & CityCenter have higher chances)
+    # Define event probabilities for each area (Stadium & City Center have higher chances)
     event_prob = {
         "Airport": 0.05,
         "Metro Station": 0.03,

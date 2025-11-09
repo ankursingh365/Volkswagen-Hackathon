@@ -1,0 +1,16 @@
+{
+  "min_price_per_30m": 20.0,
+  "price_per_head": 45.0,
+  "price_per_hour": 0.0,
+  "slot_type_multipliers": {
+    "near_exit": 1.1500000000000001,
+    "far_exit": 0.8999999999999999
+  },
+  "event_multiplier_per_impact": [
+    1.0,
+    1.1,
+    1.25,
+    1.4
+  ],
+  "traffic_multiplier_scale": 0.9
+}

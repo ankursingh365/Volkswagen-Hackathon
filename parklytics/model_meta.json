@@ -1,5 +1,5 @@
 {
-  "mae": 3.1703958820346325,
+  "mae": 3.174314538239538,
   "n_samples": 3000,
   "features": [
     "traffic_level",
@@ -13,5 +13,5 @@
     "area_name_Shopping Mall",
     "area_name_Tech Park"
   ],
-  "note": "Trained on Indian parking data with event influence"
+  "note": "Trained on Indian parking data with event+booking influence"
 }
